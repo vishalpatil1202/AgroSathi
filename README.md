@@ -51,6 +51,7 @@ AgroSathi/
 │ ├── gemma.py # Gemma model loading and response generation
 │ └── requirements.txt # Dependencies
 ├── AgroSathi.ipynb # Google colab notebook
+├── .gitignore
 └── README.md
 
 ```
