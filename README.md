@@ -50,9 +50,8 @@ AgroSathi/
 │ ├── app.py # Streamlit frontend
 │ ├── gemma.py # Gemma model loading and response generation
 │ └── requirements.txt # Dependencies
-├── notebook/
-│ └── AgroSathi.ipynb # Colab Notebook with logic and demo
-└── README.md # This file
+├── AgroSathi.ipynb # Google colab notebook
+└── README.md
 
 ```
 
@@ -62,12 +61,12 @@ AgroSathi/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/agrosathi.git
+git clone https://github.com/vishalpatil1202/AgroSathi
 cd agrosathi/streamlit_app
 
 # 2. Create virtual environment and activate (optional)
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+.\venv\Scripts\activate  
 
 # 3. Install dependencies
 pip install -r requirements.txt
