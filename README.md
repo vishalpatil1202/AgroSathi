@@ -6,7 +6,7 @@ This project is submitted as part of the [Google Gemma 3N Hackathon](https://www
 
 ---
 
-## 🧠 Powered by Google Gemma 2B (Instruction-Tuned)
+## 🧠 Powered by Google Gemma
 
 The tool uses the `google/gemma-1.1-2b-it` model to analyze farmer input and generate scheme recommendations in their preferred language.
 
@@ -18,15 +18,7 @@ The tool uses the `google/gemma-1.1-2b-it` model to analyze farmer input and gen
 ✅ Dynamic form for farmer details  
 ✅ Streamlit-based frontend  
 ✅ Colab notebook for reproducibility  
-✅ Uses Gemma 2B LLM to recommend real-world applicable schemes  
-✅ Lightweight and ready-to-deploy
-
----
-
-## 🖼️ Demo
-
-[📺 Watch the 2-minute demo video here](https://your-video-link.com)  
-(*Replace with actual video link*)
+✅ Uses Gemma LLM to recommend real-world applicable schemes
 
 ---
 
@@ -81,8 +73,13 @@ streamlit run app.py
 
 ## 📒 Run on Google Colab
 
-Open the AgroSathi.ipynb notebook to try out the model interaction directly on Colab.
-Make sure to install required packages and enable GPU (recommended).
+You can try the AI-powered recommendation system directly in a Colab notebook.
+However, to run the full Streamlit app via Colab, follow these instructions carefully:
+
+- Open AgroSathi.ipynb in Google Colab
+- Upload the app.py and gemma.py files into the Colab runtime
+- Add ngrok and Hugging Face token
+- Run the notebook cells to launch the app, it will provide a public URL (via ngrok) to access the UI.
 
 ---
 
