@@ -38,10 +38,9 @@ The tool uses the `google/gemma-1.1-2b-it` model to analyze farmer input and gen
 ```
 
 AgroSathi/
-├── streamlit_app/
-│ ├── app.py # Streamlit frontend
-│ ├── gemma.py # Gemma model loading and response generation
-│ └── requirements.txt # Dependencies
+├── app.py # Streamlit frontend
+├── gemma.py # Gemma model loading and response generation
+├── requirements.txt # Dependencies
 ├── AgroSathi.ipynb # Google colab notebook
 ├── .gitignore
 └── README.md
@@ -55,7 +54,7 @@ AgroSathi/
 ```bash
 # 1. Clone the repository
 git clone https://github.com/vishalpatil1202/AgroSathi
-cd agrosathi/streamlit_app
+cd AgroSathi
 
 # 2. Create virtual environment and activate (optional)
 python -m venv venv
