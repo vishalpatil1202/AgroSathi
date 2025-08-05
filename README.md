@@ -1,4 +1,4 @@
-# 🌾 AgroSathi - Bridging Farmers and Government Support
+# 🌻 AgroSathi - Bridging Farmers and Government Support
 
 _AgroSathi_ is an AI-powered farmer support tool that helps farmers discover relevant **government schemes, subsidies, and crop insurance** based on their age, land type/size, state, and crops sown.
 
