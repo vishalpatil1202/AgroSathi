@@ -17,8 +17,8 @@ def get_response(prompt: str, tokenizer, model):
 
     output = model.generate(
         **inputs,
-        max_new_tokens=300,              # Reduced for speed
-        do_sample=False,                 # Greedy decoding (faster, more predictable)
+        max_new_tokens=300,              
+        do_sample=False,                 
         top_p=0.9,
         top_k=50,
         repetition_penalty=1.1,
@@ -26,4 +26,5 @@ def get_response(prompt: str, tokenizer, model):
     )
 
     response = tokenizer.decode(output[0], skip_special_tokens=True)
+
     return response.replace(prompt.strip(), "").strip()
